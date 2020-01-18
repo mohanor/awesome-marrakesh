@@ -1,0 +1,365 @@
+/*                                  start css for home                        */
+body
+{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    height: 1000px;
+}
+.header
+{
+    background-image: url("../img/img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 400px;
+    width: 100%;
+}
+
+.hDiv
+{
+    background-color: #0707074a;
+    height: 100%;
+}
+.headre-list
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 41px;
+    margin-top: 0;
+    padding-top: 10px;
+}
+.headre-list li
+{
+    padding: 20px;
+    color: white;
+    cursor: pointer;
+}
+.h-div h1
+{
+    font-size: 73px;
+    color: white;
+    margin-top: 13px;
+    margin-bottom: 0;
+    letter-spacing: 6px;
+}
+.div
+{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.p
+{
+    width: 80%;
+    margin: 0 auto;
+}
+.hp{
+    color: white;
+}
+.hb
+{
+    color: white;
+    margin-top: 26px;
+}
+.list
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    border-bottom: 1px solid #81878b9e;
+    box-sizing: border-box;
+}
+.item
+{
+    padding: 6px 14px;
+}
+
+.item a
+{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+.item a:hover
+{
+    
+    color: #3e3f41;
+}
+.item:hover .child-list
+{
+    height: 170px;
+}
+.child-list
+{
+    background-color: brown;
+    list-style-type: none;
+    
+    padding-left: 0;
+    transform: translateX(-10px);
+    width: 172px;
+    height: 0;
+    overflow: hidden;
+    transition: height .5s;
+
+}
+.child-item
+{
+    padding: 10px;
+}
+.h-link
+{
+    color: white;
+}
+.a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.hb
+{
+    height: 46px;
+    width: 150px;
+    border: none;
+    background: #487ffa;
+    color: white;
+    font-size: 18px;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+.wtm
+{
+    text-align: center;
+    margin-top: 52px;
+    font-size: 22px;
+    position: relative;
+}
+
+.wtm h1::after
+{
+    border-bottom-width: 2px;
+    content: "";
+    width: 43px;
+    background-color: #da0909;
+    position: absolute;
+    bottom: -11px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 2px;
+}
+
+strong
+{
+    display: block;
+    margin: 20px 0px 7px 0px;
+}
+
+.more
+{
+    display: none;
+}
+
+.btn
+{
+    padding: 10px;
+    border: 2px solid #8e8eee;
+    background: transparent;
+    font-size: 17px;
+}
+
+.div-btn
+{
+    padding: 17px;
+    text-align: center;
+}
+
+.title
+{
+    font-size: 27px;
+    line-height: 1.5;
+}
+
+.topExImg
+{
+    display: flex;
+    overflow: hidden;
+    padding-top: 5px;
+}
+
+.topExImg div
+{
+    width: 384px;
+    padding: 7px;
+    
+}
+
+.img
+{
+    height: 457px;
+    width: 305px;
+    object-fit: cover;
+    transition: transform .5s;
+}
+
+.img:hover
+{
+    transform: scale(1.05);
+}
+
+.list-food
+{
+    list-style-type: none;
+}
+
+.list-food li
+{
+    padding-bottom: 16px;
+    border-bottom: 2px solid;
+    border-color: #f0f3f6;
+    font-weight: 600;
+    line-height: 1.25;
+    
+}
+
+.list-food li label
+{
+    white-space: pre-line;
+    display: block;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.list-food li:hover label
+{
+    transform: translateX(20px);
+}
+.list-food label span
+{
+    color: darkgray;
+}
+
+.HOTELS
+{
+    background-image: url('https://images.pexels.com/photos/279746/pexels-photo-279746.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 436px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.HOTELSdiv
+{
+    padding: 20px;
+    transform: translate(0%, 34%);
+    color: black;
+}
+
+.search
+{
+    width: 116px;
+    height: 38px;
+    border: none;
+    border-radius: 30px;
+    background-color: #9090e8;
+    color: white;
+    cursor: pointer;
+}
+
+.search:hover
+{
+    background-color:#a9a9f1;
+}
+
+.check
+{
+    height: 38px;
+    width: 160px;
+    background: transparent;
+    text-align: center;
+    color: white;
+    font-size: 19px;
+    border: 1px solid white;
+    padding: 0;
+    margin-left: 23px;
+    border: 1px solid rgba(255,255,255,0.44)
+}
+
+.img_1
+{
+    height: 382px;
+    position: absolute;
+    right: 121px;
+    top: 23px;
+    transform: rotate(-24deg);
+    box-shadow: 19px 12px 51px #c5c1c1d6;
+    transition: right .5s;
+}
+
+.img_2
+{
+    height: 427px;
+    position: absolute;
+    right: 0;
+    transform: rotate(4deg);
+    box-shadow: 19px 12px 51px #c5c1c1d6;
+    transform: rotate(4deg);
+    transition: transform .5s;
+}
+.first-child-guides:hover .img_2
+{
+    transform: rotate(0deg);
+}
+.guides
+{
+    display: flex;
+    margin-left: 209px;
+    margin-top: 35px;
+}
+
+.first-child-guides:hover .img_1
+{
+    right: 198px;
+}
+
+.second-child-guides
+{
+    padding: 84px;
+    padding-left: 148px;
+}
+
+.travel
+{
+    color: #da0909;
+    font-size: 48px;
+    margin: 0;
+}
+
+.starting
+{
+    color:blueviolet;
+    margin: 0;
+    font-size: 26px;
+}
+
+.go-to
+{
+    height: 51px;
+    width: 150px;
+    border: none;
+    background-color: #277bba;
+    font-size: 15px;
+}
+
+.go-to a
+{
+    text-decoration: none;
+    color: white;
+}
