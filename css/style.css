@@ -1,4 +1,7 @@
-/*                                  start css for home                        */
+html
+{
+    scroll-behavior: smooth;
+}
 body
 {
     font-family: 'Raleway', sans-serif;
@@ -378,4 +381,22 @@ strong
 .right
 {
     right: -45px;
+}
+
+.btn-top
+{
+    position: fixed;
+    bottom: 40px;
+    right: 50px;
+    border-radius: 50px;
+    border: none;
+    background: #7676f1c9;
+    height: 50px;
+    width: 50px;
+}
+
+.btn-top a
+{
+    color: white;
+    text-decoration: none;
 }
